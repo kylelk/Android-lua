@@ -4,7 +4,7 @@ Android-lua
 lua command line interpreter for Android.
 
 
-== Building ==
+# Building
 
 To build the lua interpreter run the Android NDK build script inside this directory.
 this will create the folders libs, and obj. 
@@ -13,7 +13,7 @@ the striped execuable will be in `libs/armeabi/lua`
 
 the non striped executable will be in `obj/local/armeabi/lua`
 
-== Installing ==
+# Installing
 
 To install and run the lua interpreter on an Android device a Terminal emulator must be used, Such as [Terminal IDE](https://play.google.com/store/apps/details?id=com.spartacusrex.spartacuside&hl=en).
 

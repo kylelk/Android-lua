@@ -30,11 +30,9 @@ obj/local/armeabi/objs/lua/ldo.o: jni/ldo.c \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/machine/limits.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/syslimits.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/page.h \
- jni/lapi.h jni/llimits.h \
- /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/math.h \
- jni/lstate.h jni/lobject.h jni/ltm.h jni/lzio.h jni/lmem.h jni/ldebug.h \
- jni/ldo.h jni/lfunc.h jni/lgc.h jni/lopcodes.h jni/lparser.h \
- jni/lstring.h jni/ltable.h jni/lundump.h jni/lvm.h
+ jni/lapi.h jni/llimits.h jni/lstate.h jni/lobject.h jni/ltm.h jni/lzio.h \
+ jni/lmem.h jni/ldebug.h jni/ldo.h jni/lfunc.h jni/lgc.h jni/lopcodes.h \
+ jni/lparser.h jni/lstring.h jni/ltable.h jni/lundump.h jni/lvm.h
 
 /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/setjmp.h:
 
@@ -103,8 +101,6 @@ jni/luaconf.h:
 jni/lapi.h:
 
 jni/llimits.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/math.h:
 
 jni/lstate.h:
 

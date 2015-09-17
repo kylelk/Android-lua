@@ -34,7 +34,14 @@ obj/local/armeabi/objs/lua/lua.o: jni/lua.c \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/alloca.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/strings.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/memory.h \
- jni/lua.h jni/luaconf.h jni/lauxlib.h jni/lualib.h
+ jni/lua.h jni/luaconf.h jni/lauxlib.h jni/lualib.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/unistd.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/select.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/time.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/time.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/sysconf.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/capability.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/pathconf.h
 
 /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/signal.h:
 
@@ -113,3 +120,17 @@ jni/luaconf.h:
 jni/lauxlib.h:
 
 jni/lualib.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/unistd.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/select.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/time.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/time.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/sysconf.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/capability.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/pathconf.h:

@@ -12,21 +12,7 @@ obj/local/armeabi/objs/lua/lzio.o: jni/lzio.c \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/machine/limits.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/syslimits.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/page.h \
- jni/llimits.h \
- /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/math.h \
- /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/types.h \
- /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/stdint.h \
- /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/_types.h \
- /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/machine/_types.h \
- /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/posix_types.h \
- /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/stddef.h \
- /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/compiler.h \
- /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/posix_types.h \
- /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/types.h \
- /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/types.h \
- /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/machine/kernel.h \
- /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/sysmacros.h \
- jni/lmem.h jni/lstate.h jni/lobject.h jni/ltm.h jni/lzio.h
+ jni/llimits.h jni/lmem.h jni/lstate.h jni/lobject.h jni/ltm.h jni/lzio.h
 
 /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/string.h:
 
@@ -57,32 +43,6 @@ jni/luaconf.h:
 /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/page.h:
 
 jni/llimits.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/math.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/types.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/stdint.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/_types.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/machine/_types.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/posix_types.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/stddef.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/compiler.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/posix_types.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/types.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/types.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/machine/kernel.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/sysmacros.h:
 
 jni/lmem.h:
 

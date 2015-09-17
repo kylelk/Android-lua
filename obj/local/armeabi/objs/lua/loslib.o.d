@@ -40,7 +40,16 @@ obj/local/armeabi/objs/lua/loslib.o: jni/loslib.c \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/syslimits.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/page.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/stdio.h \
- jni/lauxlib.h jni/lualib.h
+ jni/lauxlib.h jni/lualib.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/unistd.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/select.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/signal.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/signal.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm-generic/signal.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/sigcontext.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/sysconf.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/capability.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/pathconf.h
 
 /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/errno.h:
 
@@ -129,3 +138,21 @@ jni/luaconf.h:
 jni/lauxlib.h:
 
 jni/lualib.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/unistd.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/select.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/signal.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/signal.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm-generic/signal.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/sigcontext.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/sysconf.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/capability.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/pathconf.h:

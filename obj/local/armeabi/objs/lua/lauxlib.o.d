@@ -34,7 +34,14 @@ obj/local/armeabi/objs/lua/lauxlib.o: jni/lauxlib.c \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/machine/limits.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/syslimits.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/page.h \
- jni/lauxlib.h
+ jni/lauxlib.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/wait.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/resource.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/resource.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/time.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/resource.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm-generic/resource.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/wait.h
 
 /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/errno.h:
 
@@ -109,3 +116,17 @@ jni/luaconf.h:
 /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/page.h:
 
 jni/lauxlib.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/wait.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/resource.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/resource.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/time.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/resource.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm-generic/resource.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/wait.h:

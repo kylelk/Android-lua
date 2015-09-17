@@ -28,11 +28,9 @@ obj/local/armeabi/objs/lua/lcode.o: jni/lcode.c \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/machine/limits.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/syslimits.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/page.h \
- jni/lcode.h jni/llex.h jni/lobject.h jni/llimits.h \
- /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/math.h \
- jni/lzio.h jni/lmem.h jni/lopcodes.h jni/lparser.h jni/ldebug.h \
- jni/lstate.h jni/ltm.h jni/ldo.h jni/lgc.h jni/lstring.h jni/ltable.h \
- jni/lvm.h
+ jni/lcode.h jni/llex.h jni/lobject.h jni/llimits.h jni/lzio.h jni/lmem.h \
+ jni/lopcodes.h jni/lparser.h jni/ldebug.h jni/lstate.h jni/ltm.h \
+ jni/ldo.h jni/lgc.h jni/lstring.h jni/ltable.h jni/lvm.h
 
 /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/stdlib.h:
 
@@ -101,8 +99,6 @@ jni/llex.h:
 jni/lobject.h:
 
 jni/llimits.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/math.h:
 
 jni/lzio.h:
 

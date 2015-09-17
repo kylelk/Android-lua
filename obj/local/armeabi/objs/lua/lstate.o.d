@@ -12,8 +12,11 @@ obj/local/armeabi/objs/lua/lstate.o: jni/lstate.c \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/machine/limits.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/syslimits.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/page.h \
- jni/lapi.h jni/llimits.h \
- /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/math.h \
+ jni/lapi.h jni/llimits.h jni/lstate.h jni/lobject.h jni/ltm.h jni/lzio.h \
+ jni/lmem.h jni/ldebug.h jni/ldo.h jni/lfunc.h jni/lgc.h jni/llex.h \
+ jni/lstring.h jni/ltable.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/time.h \
+ /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/time.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/types.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/stdint.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/_types.h \
@@ -26,10 +29,6 @@ obj/local/armeabi/objs/lua/lstate.o: jni/lstate.c \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/types.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/machine/kernel.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/sysmacros.h \
- jni/lstate.h jni/lobject.h jni/ltm.h jni/lzio.h jni/lmem.h jni/ldebug.h \
- jni/ldo.h jni/lfunc.h jni/lgc.h jni/llex.h jni/lstring.h jni/ltable.h \
- /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/time.h \
- /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/time.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/time.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/siginfo.h \
  /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm-generic/siginfo.h
@@ -66,32 +65,6 @@ jni/lapi.h:
 
 jni/llimits.h:
 
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/math.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/types.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/stdint.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/_types.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/machine/_types.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/posix_types.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/stddef.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/compiler.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/posix_types.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/types.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/types.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/machine/kernel.h:
-
-/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/sysmacros.h:
-
 jni/lstate.h:
 
 jni/lobject.h:
@@ -119,6 +92,30 @@ jni/ltable.h:
 /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/time.h:
 
 /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/time.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/types.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/stdint.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/_types.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/machine/_types.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/posix_types.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/stddef.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/compiler.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/posix_types.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/asm/types.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/types.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/machine/kernel.h:
+
+/Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/sysmacros.h:
 
 /Applications/android-ndk-r9/platforms/android-8/arch-arm/usr/include/linux/time.h:
 
